@@ -2,8 +2,10 @@ Flask==2.3.3
 Flask-SQLAlchemy==3.1.1
 Flask-Login==0.6.2
 geopandas==0.14.1
-shapely==2.0.2
-fiona==1.9.5
+shapely==2.0.4
+fiona==1.9.6
 pyproj==3.6.1
 werkzeug==2.3.7
 gunicorn==21.2.0
+setuptools==69.0.0
+wheel==0.42.0
