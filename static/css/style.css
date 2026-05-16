@@ -1,0 +1,58 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#map {
+    z-index: 1;
+}
+
+.layer-item {
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.layer-item:hover {
+    background-color: #e9ecef;
+}
+
+.layer-control {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.layer-badge {
+    font-size: 0.7rem;
+    padding: 2px 6px;
+}
+
+.search-result-item {
+    cursor: pointer;
+    border-left: 3px solid #007bff;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.search-result-item:hover {
+    background-color: #f0f0f0;
+}
+
+.leaflet-popup-content {
+    min-width: 200px;
+}
+
+.attribute-table {
+    width: 100%;
+    font-size: 0.85rem;
+}
+
+.attribute-table td {
+    padding: 4px;
+}
+
+.dashboard-stat-card {
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 12px;
+}
